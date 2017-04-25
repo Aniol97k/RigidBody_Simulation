@@ -20,14 +20,15 @@ extern const float halfW = 0.5f;
 int numVerts = 24 + 6; //4 vertex/face * 6 faces + 6 PRIMITIVE RESTART
 
 
-//   4---------7
-//  /|        /|
-// / |       / |
-//5---------6  |
-//|  0------|--3
-//| /       | /
-//|/        |/
-//1---------2
+//       4---------7
+//      /|        /|
+//     / |       / |
+//    5---------6  |
+//    |  0------|--3
+//    | /       | /
+//    |/        |/
+//    1---------2
+
 glm::vec3 verts[] = {
 	glm::vec3(-halfW, -halfW, -halfW),
 	glm::vec3(-halfW, -halfW,  halfW),
